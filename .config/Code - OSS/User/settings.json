@@ -1,0 +1,35 @@
+{
+    "workbench.colorTheme": "Dracula",
+    "editor.fontFamily": "JetBrainsMono Nerd Font",
+    "editor.fontSize": 14,
+    "editor.fontLigatures": true,
+    "editor.minimap.enabled": false,
+    "files.autoSave": "onFocusChange",
+    "editor.mouseWheelZoom": true,
+    "editor.lineHeight": 1.4,
+    "debug.console.fontSize": 14,
+    "markdown.preview.fontSize": 16,
+    "terminal.integrated.fontSize": 14,
+    "window.zoomLevel": 1,
+    "files.associations": {
+        "**/*.html": "html",
+        "**/templates/*/*.html": "django-html",
+        "**/templates/*": "django-html",
+        "**/requirements{/**,*}.{txt,in}": "pip-requirements"
+    },
+    "emmet.includeLanguages": {
+        "django-html": "html"
+    },
+    "beautify.language": {
+        "html": [
+            "htm",
+            "html",
+            "django-html"
+        ]
+    },
+    "python.formatting.provider": "autopep8",
+    "python.formatting.autopep8Args": [
+        "--max-line-length=120"
+    ],
+    "workbench.editor.untitled.hint": "hidden",
+}
