@@ -119,6 +119,7 @@ alias dmm="python manage.py makemigrations"
 alias du=" python manage.py createsuperuser"
 
 alias stonks="cd ~/Coding/Valuat.io && source ~/Coding/Valuat.io/venv/bin/activate && code ."
+alias mygame="cd ~/Coding/my_pygame && source ~/Coding/my_pygame/venv/bin/activate && code ."
 
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
