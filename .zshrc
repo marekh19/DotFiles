@@ -119,8 +119,10 @@ alias dmm="python manage.py makemigrations"
 alias du=" python manage.py createsuperuser"
 
 alias stonks="cd ~/Coding/Valuat.io && source ~/Coding/Valuat.io/venv/bin/activate && code ."
-alias jumpy_knight="cd ~/Coding/Jumpy_Knight && source ~/Coding/Jumpy_Knight/venv/bin/activate && code ."
+alias jumpy_knight="cd ~/Coding/Jumpy_Knight && source venv/bin/activate && python main.py"
+alias industrial_zone="cd ~/Coding/Industrial_Zone && source venv/bin/activate && code ."
 
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+alias fixhs='rm /home/marekh19/Games/overwatch/drive_c/Program\ Files\ (x86)/Hearthstone/Hearthstone_Data/Plugins/x86/LocationAPI.dll'
 
 eval "$(starship init zsh)"

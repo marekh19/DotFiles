@@ -233,8 +233,8 @@ bindsym $mod+r mode "resize"
 # }
 
 # Screenshot keybinds
-bindsym Shift+Print $exe flameshot gui -p ~/Pictures/Screenshots
-bindsym Print $exe flameshot full -p ~/Pictures/Screenshots
+bindsym Print $exe flameshot gui -p ~/Pictures/Screenshots
+bindsym Shift+Print $exe flameshot full -p ~/Pictures/Screenshots
 
 # Start autotiling on startup (automatically cycle between horizonzal and vertical tiling)
 $exe_always autotiling
