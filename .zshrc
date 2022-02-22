@@ -126,3 +126,6 @@ alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 alias fixhs='rm /home/marekh19/Games/overwatch/drive_c/Program\ Files\ (x86)/Hearthstone/Hearthstone_Data/Plugins/x86/LocationAPI.dll'
 
 eval "$(starship init zsh)"
+
+rxfetch
+
