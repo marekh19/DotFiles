@@ -100,6 +100,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+alias aliases="cat ~/.zshrc | grep alias"
 alias ..="cd .."
 
 alias ls="lsd"
@@ -123,7 +124,7 @@ alias jumpy_knight="cd ~/Coding/Jumpy_Knight && source venv/bin/activate && pyth
 alias industrial_zone="cd ~/Coding/Industrial_Zone && source venv/bin/activate && code ."
 
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
-alias fixhs='rm /home/marekh19/Games/overwatch/drive_c/Program\ Files\ (x86)/Hearthstone/Hearthstone_Data/Plugins/x86/LocationAPI.dll'
+alias fixhs='rm /home/marekh19/Games/overwatch/drive_c/Program\ Files\ \(x86\)/Hearthstone/Hearthstone_Data/Plugins/x86/LocationAPI.dll '
 
 eval "$(starship init zsh)"
 

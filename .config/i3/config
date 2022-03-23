@@ -243,10 +243,16 @@ $exe_always autotiling
 $exe exec bash $HOME/.fehbg
 
 # Start picom
-$exe_always picom
+$exe picom
+
+# Start corectrl
+$exe corectrl
 
 # Set keyboard layout
 $exe_always setxkbmap -model pc104 -layout us,cz -variant ,qwerty -option grp:alt_shift_toggle
+
+# Set resolution
+$exe xrandr --output DisplayPort-0 --mode 2560x1080 --rate 75
 
 # Assign programs to Workspaces
 for_window [class="corectrl"] move to workspace $ws10
