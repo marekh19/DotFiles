@@ -68,7 +68,7 @@ bindsym control+mod1+u $exe pavucontrol;focus
 
 bindsym $mod+Shift+Return $exe thunar;focus
 
-bindsym $mod+b $exe firefox;focus
+bindsym $mod+b $exe firefox-developer-edition;focus
 
 # kill focused window
 # changed to $mod+q instead of mod+Shift+q
