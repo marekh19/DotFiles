@@ -12,7 +12,6 @@
   "debug.console.fontSize": 14,
   "markdown.preview.fontSize": 16,
   "terminal.integrated.fontSize": 14,
-  "window.zoomLevel": 1,
   // File assicoations, formatters etc.
   "files.associations": {
     "**/templates/*/*.html": "django-html",
@@ -43,7 +42,15 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   // Bracket pair colorizer
-  "bracket-pair-colorizer-2.colors": ["#f1fa8c", "#bd93f9", "#8be9fd", "#ff79c6", "#50fa7b", "#ffb86c", "#6272a4"],
+  "bracket-pair-colorizer-2.colors": [
+    "#f1fa8c",
+    "#bd93f9",
+    "#8be9fd",
+    "#ff79c6",
+    "#50fa7b",
+    "#ffb86c",
+    "#6272a4"
+  ],
   "bracket-pair-colorizer-2.highlightActiveScope": true,
   "bracket-pair-colorizer-2.activeScopeCSS": [
     "borderStyle : solid",
@@ -61,6 +68,7 @@
     "borderColor : {color}",
     "opacity: 0.5"
   ],
+  // Formatters
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -74,5 +82,12 @@
   "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "breadcrumbs.enabled": false
+  "breadcrumbs.enabled": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "window.zoomLevel": 1,
+  // Customize UI
+  "customizeUI.activityBar": "bottom",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
