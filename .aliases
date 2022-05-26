@@ -7,8 +7,8 @@ alias la="ls -a"
 alias lla="ls -la"
 alias lt="ls --tree"
 # Git
-alias ga="git add ."
-alias gc='git commit -m"'
+alias ga="git add"
+alias gc="git commit -m"
 alias gs="git status"
 alias gp="git push"
 # Django
