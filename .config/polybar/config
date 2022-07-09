@@ -120,7 +120,7 @@ label-mounted-underline = ${colors.purple}
 
 [module/fs-data]
 inherit = fs-base
-mount-0 = /home/marekh19/Data
+mount-0 = /home/marekh19/Storage
 label-mounted = %{T2} %{T-} %free%
 label-mounted-foreground = ${colors.pink}
 label-mounted-underline = ${colors.pink}
